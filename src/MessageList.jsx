@@ -1,6 +1,5 @@
-import React from 'react'
+// import React from 'react'
 import { useState } from 'react'
-
 
 import Message from './Message';
 
@@ -27,7 +26,7 @@ const MessageList = () => {
       }
     ];
   
-    const [messages] = React.useState(initialValues);
+    const [messages] = useState(initialValues);
     const messageViews = messages.map(
       message => <Message key={message._id} message={message} />
     );

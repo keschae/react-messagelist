@@ -1,4 +1,3 @@
-import MessageList from "./MessageList";
 
 const Message = ({ message }) => {
     
